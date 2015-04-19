@@ -9,9 +9,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Bipin Navlakha
+tagline:             Bioinformatician
+url:                 https://github.com/bipinnavlakha
 paginate:            1
 baseurl:             ""
 
@@ -24,7 +24,7 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Bipin Navlakha
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
