@@ -8,6 +8,11 @@ highlighter:         pygments
 permalink:           pretty
 relative_permalinks: true
 
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
 # Setup
 title:               Genome Analytics
 tagline:             Explorations of a bioinformatician
