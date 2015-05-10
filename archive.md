@@ -1,11 +1,15 @@
 
 ---
 layout: page
-title: Archive
+title: Archives
+permalink: /archives/
+header: true
 ---
 
-## Blog Posts
-
+<ul>
 {% for post in site.posts %}
-  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+  <li>
+    {{ post.date | date: "%Y-%m-%d"  }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
+</ul>
